@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Music blog</title>
+    <!-- Google fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Nova+Square&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- Icons -->
+    <script
+      src="https://kit.fontawesome.com/45b346d266.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div id="register-container">
+      <div id="logo-container">
+        <header id="register__logo">
+          <h2>
+            <a href=""
+              ><i class="fas fa-wave-square fa-s"></i>s<span>Q</span>uare.
+              magazine</a
+            >
+          </h2>
+        </header>
+      </div>
+      <form class="formcontainer">
+        <label> Firstname </label>
+        <input type="text" name="firstname" size="15" /> <br />
+        <br />
+        <label> Middlename: </label>
+        <input type="text" name="middlename" size="15" /> <br />
+        <br />
+        <label> Lastname: </label>
+        <input type="text" name="lastname" size="15" /> <br />
+        <br />
+
+        <br />
+        <br />
+        <label> Gender : </label><br />
+        <input type="radio" name="male" /> Male <br />
+        <input type="radio" name="female" /> Female <br />
+        <input type="radio" name="other" /> Other
+        <br />
+        <br />
+
+        <label> Phone : </label>
+        <input type="text" name="country code" value="+31" size="2" />
+        <input type="text" name="phone" size="10" /> <br />
+        <br />
+        Address
+        <br />
+        <textarea cols="80" rows="5" value="address"> </textarea>
+        <br />
+        <br />
+        Email:
+        <input type="email" id="email" name="email" /> <br />
+        <br />
+        <br />
+        Password:
+        <input type="Password" id="pass" name="pass" /> <br />
+        <br />
+        <br />
+        Re-type password:
+        <input type="Password" id="repass" name="repass" /> <br />
+        <br />
+        <input class="btn" type="button" value="Submit" />
+      </form>
+    </div>
+  </body>
+</html>
